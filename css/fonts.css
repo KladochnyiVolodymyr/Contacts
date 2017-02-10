@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Exo2Regular";
+    src: url("../fonts/Exo2Regular.eot");
+    src: url("../fonts/Exo2Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Exo2Regular.woff") format("woff"),
+    url("../fonts/Exo2Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Exo2Bold";
+    src: url("../fonts/Exo2Bold.eot");
+    src: url("../fonts/Exo2Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Exo2Bold.woff") format("woff"),
+    url("../fonts/Exo2Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
