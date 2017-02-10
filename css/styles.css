@@ -31,6 +31,7 @@
 }
 .content-item_wrap{
 	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(194,202,219,.58);
 }
 .content-item__title{
 	border-bottom: 1px solid #d6deed;
@@ -98,8 +99,41 @@
 /*-----main block end-----*/
 
 /*------footer------*/
-
-
-
-
+.footer{
+	background-color: #203856;
+	padding: 20px 0px 25px;
+}
+.сopyright{
+	opacity: .5;
+	color: #fff;
+	font-family: "Exo2Regular";
+	font-size: 14px;
+	text-align: center;
+}
+.footer-nav__list{
+	text-align: center;
+}
+.footer-nav__item{
+	color: #fff;
+	font-family: "Exo2Regular";
+	font-size: 14px;
+	text-decoration: underline;
+	margin-right: 15px;
+	display: inline-block;
+}
+.footer-nav__link{
+	color: #fff;
+}
+.footer-nav__link:hover{
+	color: #fff;
+}
+.icon__item{
+	opacity: .5;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 20px;
+}
+.icon__item:hover{
+	color: #fff;
+}
 /*-----footer end-----*/
