@@ -1,10 +1,87 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-	
+	.header{
+		background-color: #d6deed;
+	}
+	.navbar-brand{
+		padding: 15px 0px;
+	}
+	.navbar-nav{
+		float: none;
+	}
+	.navbar-nav__item{
+		border: none;
+	}
+	.nav > li > a{
+		padding: 10px 0px;
+		border-left: 4px solid rgba(255,255,255,0); 
+	}
+	.nav > li > a:hover{
+		background-color: #f1f5f8;
+		border-left: 4px solid #17ccc5;
+	}
+	.navbar-toggle{
+		float: right;
+		margin-right: 0px;
+	}
+	.registration{
+		display: none;
+	}
+	#personal-office{
+		padding: 10px 0px;
+	}
+	.personal-office__content{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.personal-office_text{
+		color: #155f95;
+		font-family: "Exo2Bold";
+		font-size: 17px;
+		margin-bottom: 5px;
+	}
+	.personal-office_exit{
+		color: #9ba7bb;
+		font-size: 20px;
+		margin-top: 35px;
+	}
+	.exit_text{
+		color: #798593;
+		font-family: "Exo2Regular";
+		font-size: 14px;
+		margin-left: 10px;
+	}
+	.content-item{
+		margin-bottom: 20px;
+	}
+	.form__input_left, .form__input_right{
+		width: 100%;
+	}
+	.сopyright,.footer-nav__list{
+		text-align: start;
+		margin-bottom: 15px;
+	}
+	.footer-nav__item{
+		display: block;
+		margin-bottom: 12px;
+	}
+	.social-icon{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.icon__item{
+		margin-right: 5%;
+		font-size: 20px;
+	}
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
 	.icon__item{
 		margin-right: 7%;
+	}
+	.form__input_left,.form__input_right{
+		width: 47%;
 	}
 	.footer-nav__item{
 		margin-bottom: 10px;
