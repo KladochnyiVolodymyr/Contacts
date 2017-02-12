@@ -104,6 +104,9 @@ html, body{
 	background-color: #fff;
 	box-shadow: 0 2px 5px rgba(194,202,219,.58);
 }
+.content-item_size{
+	height: 337px;
+}
 .content-item__title{
 	border-bottom: 1px solid #d6deed;
 	padding: 10px;
