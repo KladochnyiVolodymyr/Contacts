@@ -1,5 +1,35 @@
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 1200px){
+	.navbar-nav__item{
+		border-left: 1px solid #e5f3f9;
+	}
+}
+@media screen and (min-width: 768px){
+	#registration{
+		float: right;
+	}
+	#responsive-menu{
+		float: left;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.main-wrapper{
+		padding-bottom: 95px;
+    	margin-bottom: -95px;
+	}
+	.content-item_size{
+		height: 358px;
+	}
+	.icon__item{
+		margin-right: 7%;
+	}
+	.form__input_left,.form__input_right{
+		width: 47%;
+	}
+	.footer-nav__item{
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
 	.main-wrapper{
 		padding-bottom: 195px;
     	margin-bottom: -195px;
@@ -96,36 +126,5 @@
 	.icon__item{
 		margin-right: 5%;
 		font-size: 20px;
-	}
-}
-@media screen and (min-width: 769px) and (max-width: 992px) {
-	.main-wrapper{
-		padding-bottom: 95px;
-    	margin-bottom: -95px;
-	}
-	.content-item_size{
-		height: 358px;
-	}
-	.icon__item{
-		margin-right: 7%;
-	}
-	.form__input_left,.form__input_right{
-		width: 47%;
-	}
-	.footer-nav__item{
-		margin-bottom: 10px;
-	}
-}
-@media screen and (min-width: 769px){
-	#registration{
-		float: right;
-	}
-	#responsive-menu{
-		float: left;
-	}
-}
-@media screen and (min-width: 1200px){
-	.navbar-nav__item{
-		border-left: 1px solid #e5f3f9;
 	}
 }
