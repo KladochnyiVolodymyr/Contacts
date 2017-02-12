@@ -11,141 +11,144 @@
     <link href="css/responsive.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="navbar col-md-9">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#"><span class="logo_border">T</span><span class="logo_text">Targetbrain</span></a>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#personal-office">
-                <i class="fa fa-user header-icon" aria-hidden="true"></i>
-              </button>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                <i class="fa fa-bars header-icon" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="personal-office">
-              <img src="images/personal-office.png">
-              <div class="personal-office__content">
-                <p class="personal-office_text">Константин</p>
-                <p class="personal-office_text">Константинович</p>
-                <a href="#"><i class="fa fa-sign-out personal-office_exit" aria-hidden="true"><span class="exit_text">Выйти</span></i></a>
+    <div class="main-wrapper">
+      <header class="header">
+        <div class="container">
+    
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><span class="logo_border">T</span><span class="logo_text">Targetbrain</span></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#registration">
+                  <i class="fa fa-user header-icon" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                  <i class="fa fa-bars header-icon" aria-hidden="true"></i>
+                </button>
+              </div>
+              <!--<div class="collapse navbar-collapse" id="personal-office">
+                <img src="images/personal-office.png">
+                <div class="personal-office__content">
+                  <p class="personal-office_text">Константин</p>
+                  <p class="personal-office_text">Константинович</p>
+                  <a href="#"><i class="fa fa-sign-out personal-office_exit" aria-hidden="true"><span class="exit_text">Выйти</span></i></a>
+                </div>
+              </div>-->
+              <div class="collapse navbar-collapse registration-wrap" id="registration">
+              <div class="registration">
+                <span class="fa-stack fa-lg registration-icon">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                </span>
+                <div class="registration__content">
+                  <a href="#" class="registration__content_text">Вход</a>
+                  <a href="#" class="registration__content_text">Регистрация</a>
+                </div>
+              </div>
+              </div>
+              <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav">
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Вебинар</a>
+                  </li>
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Соцсеть</a>
+                  </li>
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Курсы</a>
+                  </li>
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Рассылки</a>
+                  </li>
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Лендинг</a>
+                  </li>
+                  <li class="navbar-nav__item">
+                    <a class="navbar-nav__link" href="#">Цели</a>
+                  </li>
+                </ul>
+              </div>
+
+            
+
+            
+          </div>
+      </header>
+
+
+
+      <div class="main-block">
+        <div class="main-block__top">
+          <div class="container">
+            <i class="fa fa-home main-block__top-icon" aria-hidden="true"></i>
+            <i class="fa fa-angle-right main-block__top-icon" aria-hidden="true"></i>
+            <span class="top_text">Контакты</span>
+          </div>
+        </div>
+        <div class="main-block__content container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 content-item">
+              <div class="content-item_wrap">
+                <div class="content-item__title">
+                  <span class="fa-stack fa-lg title-icon">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="title-text text-uppercase">Контакты</span>
+                </div>
+                <div class="content-item__filling">
+                  <p class="content-item__text_style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+                </div>
               </div>
             </div>
-            <div class="collapse navbar-collapse" id="responsive-menu">
-              <ul class="nav navbar-nav">
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Вебинар</a>
+            <div class="col-xs-12 col-sm-6 col-md-6 content-item">
+              <div class="content-item_wrap">
+                <div class="content-item__title">
+                  <span class="fa-stack fa-lg title-icon">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="title-text">Обратная связь</span>
+                </div>
+                <div class="content-item__filling">
+                  <p class="content-item__text_style">Воспользуйтесь, пожалуйста, формой обратной связи:</p>
+                  <form class="content-item__form">
+                    <input class="form__input form__input_left" type="text" placeholder="Имя">
+                    <input class="form__input form__input_right" type="email" placeholder="Е-mail">
+                    <textarea class="form__input form__input_bottom" rows="5" placeholder="Сообщение"></textarea>
+                    <input class="form__submit" type="submit" value="Отправить">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-2 сopyright">© targetbrain.com</div>
+            <div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1 footer-nav">
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="#">О нас</a>
                 </li>
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Соцсеть</a>
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="#">Договор оферты</a>
                 </li>
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Курсы</a>
-                </li>
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Рассылки</a>
-                </li>
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Лендинг</a>
-                </li>
-                <li class="navbar-nav__item">
-                  <a class="navbar-nav__link" href="#">Цели</a>
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link" href="#">Политика конфиденциальности</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="registration-wrap col-md-3">
-            <div class="registration">
-              <span class="fa-stack fa-lg registration-icon">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-              </span>
-              <div class="registration__content">
-                <a href="#" class="registration__content_text">Вход</a>
-                <a href="#" class="registration__content_text">Регистрация</a>
-              </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-md-offset-1 social-icon">
+              <a href="#" class="icon__item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="icon__item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" class="icon__item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="icon__item"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-
-
-
-    <div class="main-block">
-      <div class="main-block__top">
-        <div class="container">
-          <i class="fa fa-home main-block__top-icon" aria-hidden="true"></i>
-          <i class="fa fa-angle-right main-block__top-icon" aria-hidden="true"></i>
-          <span class="top_text">Контакты</span>
-        </div>
-      </div>
-      <div class="main-block__content container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 content-item">
-            <div class="content-item_wrap">
-              <div class="content-item__title">
-                <span class="fa-stack fa-lg title-icon">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="title-text text-uppercase">Контакты</span>
-              </div>
-              <div class="content-item__filling">
-                <p class="content-item__text_style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 content-item">
-            <div class="content-item_wrap">
-              <div class="content-item__title">
-                <span class="fa-stack fa-lg title-icon">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="title-text">Обратная связь</span>
-              </div>
-              <div class="content-item__filling">
-                <p class="content-item__text_style">Воспользуйтесь, пожалуйста, формой обратной связи:</p>
-                <form class="content-item__form">
-                  <input class="form__input form__input_left" type="text" placeholder="Имя">
-                  <input class="form__input form__input_right" type="email" placeholder="Е-mail">
-                  <textarea class="form__input form__input_bottom" rows="5" placeholder="Сообщение"></textarea>
-                  <input class="form__submit" type="submit" value="Отправить">
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </footer>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 col-md-2 сopyright">© targetbrain.com</div>
-          <div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1 footer-nav">
-            <ul class="footer-nav__list">
-              <li class="footer-nav__item">
-                <a class="footer-nav__link" href="#">О нас</a>
-              </li>
-              <li class="footer-nav__item">
-                <a class="footer-nav__link" href="#">Договор оферты</a>
-              </li>
-              <li class="footer-nav__item">
-                <a class="footer-nav__link" href="#">Политика конфиденциальности</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-2 col-md-2 col-md-offset-1 social-icon">
-            <a href="#" class="icon__item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#" class="icon__item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#" class="icon__item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#" class="icon__item"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>

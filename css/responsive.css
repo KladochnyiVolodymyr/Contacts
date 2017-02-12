@@ -1,5 +1,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+	.main-wrapper{
+		padding-bottom: 195px;
+    	margin-bottom: -195px;
+	}
 	.header{
 		background-color: #d6deed;
 	}
@@ -8,9 +12,13 @@
 	}
 	.navbar-nav{
 		float: none;
+		padding: 0px 15px;
 	}
 	.navbar-nav__item{
 		border: none;
+	}
+	.navbar-header{
+		padding: 0px 15px;
 	}
 	.nav > li > a{
 		padding: 10px 0px;
@@ -25,7 +33,11 @@
 		margin-right: 0px;
 	}
 	.registration{
-		display: none;
+		margin: 0px -15px;
+	}
+	.registration-icon{
+		right: 0px;
+		font-size: 20px;
 	}
 	#personal-office{
 		padding: 10px 0px;
@@ -53,6 +65,9 @@
 		font-size: 14px;
 		margin-left: 10px;
 	}
+	.content-item_size{
+		height: auto;
+	}
 	.content-item{
 		margin-bottom: 20px;
 	}
@@ -77,6 +92,13 @@
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
+	.main-wrapper{
+		padding-bottom: 95px;
+    	margin-bottom: -95px;
+	}
+	.content-item_size{
+		height: 358px;
+	}
 	.icon__item{
 		margin-right: 7%;
 	}
@@ -87,5 +109,16 @@
 		margin-bottom: 10px;
 	}
 }
-
-
+@media screen and (min-width: 769px){
+	#registration{
+		float: right;
+	}
+	#responsive-menu{
+		float: left;
+	}
+}
+@media screen and (min-width: 1200px){
+	.navbar-nav__item{
+		border-left: 1px solid #e5f3f9;
+	}
+}
